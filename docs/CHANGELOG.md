@@ -10,6 +10,10 @@ nav_order: 5
 
 ## main
 
+* Update CI configuration to use `Appraisal`.
+
+    *Hans Lemuet, Simon Fish*
+
 * Allow translations to be inherited and overridden in subclasses.
 
     *Elia Schito*
