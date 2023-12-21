@@ -1076,6 +1076,18 @@ class RenderingTest < ViewComponent::TestCase
     end
   end
 
+  def test_inline_wrapper_safe
+    render_inline(UnsafeWrapperComponent.new)
+
+    refute_selector("script", visible: :hidden)
+  end
+
+  def test_inline_root_safe
+    render_inline(UnsafeComponent.new)
+
+    refute_selector("script", visible: :hidden)
+  end
+
   def test_content_predicate_false
     render_inline(ContentPredicateComponent.new)
 
