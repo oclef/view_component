@@ -244,6 +244,7 @@ ViewComponent is built by over a hundred members of the community, including:
 * [Mon Ami](https://www.monami.io)
 * [Nikola Motor](https://www.nikolamotor.com/) (50+ components and counting)
 * [OBLSK](https://oblsk.com/)
+* [Oclef Inc](https://oclef.com/)
 * [openSUSE Open Build Service](https://openbuildservice.org/)
 * [Ophelos](https://ophelos.com)
 * [Orbit](https://orbit.love)
